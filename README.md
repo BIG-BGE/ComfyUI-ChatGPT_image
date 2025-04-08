@@ -6,6 +6,9 @@
 
 ## 使用方法
 使用方法：
+把示例工作流拖到comfyui界面里，安装缺失的工作流。  
+
+然后注册api站点
 
 1.点击蓝色的字，注册[API站点](http://www.deeplpro.com/register),好像只能用qq邮箱注册  
 
