@@ -1,0 +1,72 @@
+{
+  "1": {
+    "inputs": {
+      "prompt": "基于第一张图的形体结构和特征，结合第二张的材质纹理，生成一张真实的照片质感的图，尽量保持第一张图的形体",
+      "base_url": "http://www.deeplpro.com",
+      "api_key": "",
+      "speak_and_recognation": {
+        "__value__": [
+          false,
+          true
+        ]
+      },
+      "image1": [
+        "2",
+        0
+      ],
+      "image2": [
+        "3",
+        0
+      ]
+    },
+    "class_type": "ChatGPT_Image",
+    "_meta": {
+      "title": "ChatGPT_Image"
+    }
+  },
+  "2": {
+    "inputs": {
+      "image": "汉堡.png"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "3": {
+    "inputs": {
+      "image": "hanbao.jpg"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "加载图像"
+    }
+  },
+  "4": {
+    "inputs": {
+      "images": [
+        "1",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "预览图像"
+    }
+  },
+  "5": {
+    "inputs": {
+      "notes": "使用方法：\n1.注册API站点，推荐www.deeplpro.com\n2.然后直接打开链接www.deeplpro.com/token\n  或在工作台-->API令牌-->创建令牌\n\n3.复制令牌-->粘贴到API_KEY中\n\n4.输入连接 [ 加载图像 ] 节点 ，输出连接  [ 预览图像 ] 节点 \n\n5.点击 [ 运行 ] 生成图像",
+      "speak_and_recognation": {
+        "__value__": [
+          false,
+          true
+        ]
+      }
+    },
+    "class_type": "Manual XY Entry Info",
+    "_meta": {
+      "title": "手动输入说明"
+    }
+  }
+}
