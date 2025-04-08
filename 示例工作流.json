@@ -1,7 +1,7 @@
 {
   "1": {
     "inputs": {
-      "prompt": "基于第一张图的形体结构和特征，结合第二张的材质纹理，生成一张真实的照片质感的图，尽量保持第一张图的形体",
+      "prompt": "基于图 1 的形体结构和特征，结合图 2 的材质纹理，生成一张高精度渲染图，背景是黑色的",
       "base_url": "http://www.deeplpro.com",
       "api_key": "",
       "speak_and_recognation": {
@@ -26,7 +26,7 @@
   },
   "2": {
     "inputs": {
-      "image": "汉堡.png"
+      "image": "图1.jpeg"
     },
     "class_type": "LoadImage",
     "_meta": {
@@ -35,7 +35,7 @@
   },
   "3": {
     "inputs": {
-      "image": "hanbao.jpg"
+      "image": "图2.jpg"
     },
     "class_type": "LoadImage",
     "_meta": {
@@ -66,7 +66,7 @@
     },
     "class_type": "Manual XY Entry Info",
     "_meta": {
-      "title": "手动输入说明"
+      "title": "使用说明"
     }
   }
 }
