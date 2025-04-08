@@ -1,0 +1,8 @@
+aiohttp
+aiohttp-cors
+GitPython
+numpy
+Pillow
+requests
+torch
+
