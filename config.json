@@ -1,4 +1,4 @@
 {
-    "api_key": "sk-eRL48GGTXmq60q06HFIQ5LT6TuLM7pMHrumThzZtJJsnhUFM",
+    "api_key": "引号里面填写复制过来的API_KEY，注意不要工作流，会导致API_KEY泄漏",
     "base_url": "http://www.deeplpro.com"
 }
